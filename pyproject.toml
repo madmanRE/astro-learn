@@ -1,7 +1,7 @@
 [project]
 name = "astrolearn"
 version = "0.1.0"
-description = "Add your description here"
+description = "Easy way to detect stellar class"
 requires-python = ">=3.13"
 dependencies = [
     "pre-commit>=4.6.0",
