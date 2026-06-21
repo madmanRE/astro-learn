@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.10
+    hooks:
+      - id: ruff
+        name: ruff-fix-backend
+        args: [--fix]
+        files: ^backend/.*\.py$
+
+      - id: ruff
+        name: ruff-check-backend
+        files: ^backend/.*\.py$
+
+      - id: ruff-format
+        name: ruff-format-backend
+        files: ^backend/.*\.py$
