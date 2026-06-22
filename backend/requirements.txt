@@ -1,0 +1,5 @@
+# ===== web =====
+fastapi[standard]
+pydantic-settings
+python-multipart
+uvicorn
